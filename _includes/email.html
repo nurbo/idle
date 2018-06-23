@@ -1,0 +1,26 @@
+<script type="text/javascript">
+{ coded = "ySqU@yzrx.ySYfyf2fx"
+  key = "0F5vdLxbHVYMwrti1QDKJuNzBRnWpG8EkfyhTPZo2aO4CS79AegcqsXIlmU6j3"
+  shift=coded.length
+  link=""
+  for (i=0; i<coded.length; i++) {
+    if (key.indexOf(coded.charAt(i))==-1) {
+      ltr = coded.charAt(i)
+      link += (ltr)
+    }
+    else {
+      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+      link += (key.charAt(ltr))
+    }
+  }
+  var emails = document.getElementsByClassName("email")
+  for (var i = 0; i < emails.length; ++i) {
+    emails[i].innerHTML = "<a href=\"mailto:" + link + "\">info@idle.institute</a>"
+  }
+
+  var hrefs = document.getElementsByClassName("email-href")
+  for (var i = 0; i < hrefs.length; ++i) {
+    hrefs[i].setAttribute("href", "mailto:" + link);
+  }
+}
+</script>
