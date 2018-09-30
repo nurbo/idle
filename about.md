@@ -10,7 +10,7 @@ permalink: /about/
 
 The Idle Institute (established in 2017) is a storytelling lab: a collective of
 writers, filmmakers, sound-artists and engineers founded by [Sonia
-Bernac](http://bernac.org) and [Eliot Allison](https://eliothenryallison.com).
+Bernac](http://bernac.org), [Eliot Allison](https://eliothenryallison.com), and Bruno Klopott.
 Combining theories of the public sphere with quantum physics, they investigate
 the potentialities of the story – seen as virtual matter and a precise political
 tool. This emerges from the presumption of an unstable narrative field, in which
